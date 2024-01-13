@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T21:56:46 IST" name="Suite" finished-at="2024-01-12T21:57:17 IST" duration-ms="30585">
+  <suite started-at="2024-01-13T20:32:52 IST" name="Suite" finished-at="2024-01-13T20:34:37 IST" duration-ms="104789">
     <groups>
     </groups>
-    <test started-at="2024-01-12T21:56:46 IST" name="Test" finished-at="2024-01-12T21:57:17 IST" duration-ms="30585">
+    <test started-at="2024-01-13T20:32:52 IST" name="Test" finished-at="2024-01-13T20:34:37 IST" duration-ms="104789">
       <class name="qa.testFiles.TestClass">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:56:46 IST" name="beforeTestMethod" finished-at="2024-01-12T21:56:47 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:32:52 IST" name="beforeTestMethod" finished-at="2024-01-13T20:32:53 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethodMetod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:56:47 IST" name="beforeMethodMetod" finished-at="2024-01-12T21:57:06 IST" duration-ms="19713" status="PASS">
+        <test-method is-config="true" signature="beforeMethodMetod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:32:53 IST" name="beforeMethodMetod" finished-at="2024-01-13T20:34:29 IST" duration-ms="96769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodMetod -->
-        <test-method signature="testHomeElements()[pri:1, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:06 IST" name="testHomeElements" finished-at="2024-01-12T21:57:06 IST" duration-ms="109" status="PASS">
+        <test-method signature="testHomeElements()[pri:1, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:29 IST" name="testHomeElements" finished-at="2024-01-13T20:34:30 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomeElements -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:06 IST" name="afterMethod" finished-at="2024-01-12T21:57:07 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:30 IST" name="afterMethod" finished-at="2024-01-13T20:34:30 IST" duration-ms="131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethodMetod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:07 IST" name="beforeMethodMetod" finished-at="2024-01-12T21:57:16 IST" duration-ms="9827" status="PASS">
+        <test-method is-config="true" signature="beforeMethodMetod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:30 IST" name="beforeMethodMetod" finished-at="2024-01-13T20:34:37 IST" duration-ms="6875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,11 +58,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodMetod -->
-        <test-method signature="testAboutTab()[pri:2, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:16 IST" name="testAboutTab" finished-at="2024-01-12T21:57:16 IST" duration-ms="34" status="PASS">
+        <test-method signature="testAboutTab()[pri:2, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:37 IST" name="testAboutTab" finished-at="2024-01-13T20:34:37 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAboutTab -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:16 IST" name="afterMethod" finished-at="2024-01-12T21:57:17 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:37 IST" name="afterMethod" finished-at="2024-01-13T20:34:37 IST" duration-ms="159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-12T21:57:17 IST" name="afterTest" finished-at="2024-01-12T21:57:17 IST" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.testFiles.TestClass@741a8937]" started-at="2024-01-13T20:34:37 IST" name="afterTest" finished-at="2024-01-13T20:34:37 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -7,12 +7,15 @@ import com.utils.ElementFetch;
 import com.pageObjects.*;
 public class HomePageEvents extends BaseTest{
 	
-	ElementFetch el = new ElementFetch();
+	ElementFetch ele = new ElementFetch();
 	
 	public void homePage() {
 		 //  Verify that the home page is displayed
         Assert.assertTrue(driver.findElement(By.id("home")).isDisplayed(), "Home page is not displayed");
-        el.getWebElement("XPATH",HomePageObjects.homeTabElementXpath).click();
-
+        ele.getWebElement("XPATH",HomePageObjects.homeTabElementXpath).click();
+        Assert.assertTrue(ele.getWebElement("XPATH",HomePageObjects.aboutTabXpath).isDisplayed(),"About button isn't displayed");
+        ele.getWebElement("XPATH",HomePageObjects.aboutTabXpath).click();
+        Assert.assertTrue(ele.getWebElement("XPATH",HomePageObjects.contactTabXpath).isDisplayed(),"About button isn't displayed");
+        ele.getWebElement("XPATH",HomePageObjects.contactTabXpath).click();
 	}
 }

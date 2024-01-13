@@ -11,6 +11,7 @@
         <methods>
           <include name="beforeMethodMetod"/>
           <include name="afterTest"/>
+          <include name="testAboutTab"/>
           <include name="testHomeElements"/>
           <include name="beforeTestMethod"/>
           <include name="afterMethod"/>
